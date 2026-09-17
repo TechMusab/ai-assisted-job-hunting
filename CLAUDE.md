@@ -42,6 +42,41 @@ Additional technologies will be documented as they are introduced.
 * Prioritize responsive design and accessibility.
 * Provide appropriate loading, error, empty, and success states.
 
+## Form and Validation Rules
+
+* Implement comprehensive form validation with clear error messages.
+* Trim text inputs before validation and submission.
+* Preserve user input when validation fails.
+* Prevent duplicate form submissions during async operations.
+* Show loading states during form submission.
+* Display success states after successful operations.
+* Use ARIA attributes for accessibility (`aria-invalid`, `aria-describedby`, `aria-label`).
+* Associate error messages with their corresponding form fields.
+* Implement focus management for validation errors.
+* Handle edge cases like empty forms, partial completion, and invalid input.
+
+## Testing Requirements
+
+* Write comprehensive tests for all components and features.
+* Test validation logic thoroughly, including edge cases.
+* Test accessibility features (ARIA attributes, keyboard navigation).
+* Test form submission, loading states, and success/error states.
+* Test user interactions and state changes.
+* Aim for high test coverage before considering features complete.
+* Use testing libraries appropriate for the tech stack (Vitest, React Testing Library).
+* Test user workflows, not just individual functions.
+
+## Accessibility Standards
+
+* Implement accessibility from the start, not as an afterthought.
+* All interactive elements must have accessible labels.
+* Use semantic HTML elements appropriately.
+* Provide keyboard navigation support for all interactive elements.
+* Use ARIA attributes to communicate state and role information.
+* Ensure color is not the only way to convey information.
+* Test accessibility with screen readers and keyboard navigation.
+* Follow WCAG guidelines for accessibility compliance.
+
 ## AI Integration Guidelines
 
 * AI should solve a real user problem.
