@@ -6,12 +6,12 @@ This project is being developed as a capstone for the **Frontend AI Engineering*
 
 ## Planned AI Features
 
-* AI-powered job search
-* Job description analysis
-* Resume-to-job matching
-* AI resume feedback
-* Application assistance
-* AI career assistant
+* **AI-powered job search** – Natural language queries to find relevant opportunities
+* **Job description analysis** – Extract key requirements, skills, and culture insights
+* **Resume-to-job matching** – AI-powered compatibility scoring and gap analysis
+* **AI resume feedback** – Actionable suggestions based on specific job requirements
+* **Application assistance** – Draft tailored cover letters and responses
+* **AI career assistant** – Ongoing guidance for job search strategy and skill development
 
 ## Frontend Focus
 
