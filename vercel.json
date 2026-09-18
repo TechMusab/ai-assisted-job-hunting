@@ -1,0 +1,18 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "vite",
+  "env": {
+    "VITE_OPENAI_API_KEY": {
+      "description": "OpenAI API key for AI features"
+    },
+    "VITE_ANTHROPIC_API_KEY": {
+      "description": "Anthropic API key for AI features"
+    },
+    "VITE_API_BASE_URL": {
+      "description": "Base URL for API endpoints"
+    }
+  }
+}

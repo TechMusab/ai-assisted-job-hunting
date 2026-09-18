@@ -5,7 +5,6 @@ import {
   ExperienceLevel,
   FormErrors
 } from '../types/jobPreferences'
-import './JobPreferencesForm.css'
 
 interface JobPreferencesFormProps {
   onSubmit: (preferences: JobPreferences) => void
